@@ -395,7 +395,7 @@ class Pie extends Component {
           sortByValue={true}
           activeInnerRadiusOffset={5}
           activeOuterRadiusOffset={5}
-          animate={false}
+          animate={true}
           theme={{
             "background":"#282c34",
             "textColor":"#808080"
@@ -407,15 +407,7 @@ class Pie extends Component {
               justify: false,
               translateY: 50,
               itemWidth: 100,
-              itemHeight: 20,
-              effects: [
-                {
-                    on: 'hover',
-                    style: {
-                        itemTextColor: '#000'
-                    }
-                }
-              ]
+              itemHeight: 20
             }
           ]}
         />
@@ -423,5 +415,7 @@ class Pie extends Component {
     );
   }
 }
+
+
 
 export default App;
