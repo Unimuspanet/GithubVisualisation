@@ -11,6 +11,10 @@ Run 'docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHO
 
 After the docker container is setup and running, go to localhost:3001 on any browser to view visualisation page
 
+## Example:
+Using my GitHub username as an example:
+
+
 ## Frameworks Used:
 * React js
 * Nivo Graphing framework
