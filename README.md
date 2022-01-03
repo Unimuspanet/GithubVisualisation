@@ -13,7 +13,7 @@ After the docker container is setup and running, go to localhost:3001 on any bro
 
 ## Example:
 Using my GitHub username as an example:
-
+![picture alt](./src/VisualisationTestMe.png "Unimuspanet Visualisation")
 
 ## Frameworks Used:
 * React js
